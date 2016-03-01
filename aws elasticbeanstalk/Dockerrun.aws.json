@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+  	"Bucket": "your bucket",
+  	"Key": "config.json"
+  },
+  "Image": {
+    "Name": "image",
+    "Update": "true"
+  },
+   "Ports": [
+   	{
+     "ContainerPort": "80"
+   	}
+  ]
+}
